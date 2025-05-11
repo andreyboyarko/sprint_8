@@ -24,7 +24,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC9DC98C2DD0E75F0045FF41 /* ImageFeed.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ImageFeed.xcodeproj; sourceTree = "<group>"; };
 		FCCE82F02DB9117900710BA1 /* ImageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCE83062DB9117A00710BA1 /* ImageFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCE83102DB9117A00710BA1 /* ImageFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,13 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC9DC9922DD0E75F0045FF41 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		FCCE82E72DB9117900710BA1 = {
 			isa = PBXGroup;
 			children = (
@@ -219,12 +211,6 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FCCE82F12DB9117900710BA1 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FC9DC9922DD0E75F0045FF41 /* Products */;
-					ProjectRef = FC9DC98C2DD0E75F0045FF41 /* ImageFeed.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				FCCE82EF2DB9117900710BA1 /* ImageFeed */,

@@ -17,15 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="DFg-9o-Imf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="7MC-fs-3bE">
                                 <rect key="frame" x="160.33333333333334" y="388.33333333333331" width="72.666666666666657" height="75.333333333333314"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="YP Black"/>
                         <constraints>
-                            <constraint firstItem="DFg-9o-Imf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="IpH-jG-Ief"/>
-                            <constraint firstItem="DFg-9o-Imf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="X7w-Ej-02N"/>
+                            <constraint firstItem="7MC-fs-3bE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0ee-mA-9g9"/>
+                            <constraint firstItem="7MC-fs-3bE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="p5j-a5-Jke"/>
                         </constraints>
                     </view>
                 </viewController>
