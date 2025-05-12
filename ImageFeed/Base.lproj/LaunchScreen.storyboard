@@ -24,8 +24,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="YP Black"/>
                         <constraints>
-                            <constraint firstItem="7MC-fs-3bE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0ee-mA-9g9"/>
-                            <constraint firstItem="7MC-fs-3bE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="p5j-a5-Jke"/>
+                            <constraint firstItem="7MC-fs-3bE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1eb-Cg-H0l"/>
+                            <constraint firstItem="7MC-fs-3bE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="W20-kP-H1h"/>
                         </constraints>
                     </view>
                 </viewController>
