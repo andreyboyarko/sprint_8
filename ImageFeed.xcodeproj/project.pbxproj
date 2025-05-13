@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		FCCE83182DB9117A00710BA1 /* Exceptions for "ImageFeed" folder in "ImageFeed" target */ = {
+		FC9DCA502DD20C250045FF41 /* Exceptions for "ImageFeed" folder in "ImageFeed" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,22 +40,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FCCE82F22DB9117900710BA1 /* ImageFeed */ = {
+		FC9DCA492DD20C250045FF41 /* ImageFeed */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				FCCE83182DB9117A00710BA1 /* Exceptions for "ImageFeed" folder in "ImageFeed" target */,
+				FC9DCA502DD20C250045FF41 /* Exceptions for "ImageFeed" folder in "ImageFeed" target */,
 			);
 			path = ImageFeed;
-			sourceTree = "<group>";
-		};
-		FCCE83092DB9117A00710BA1 /* ImageFeedTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ImageFeedTests;
-			sourceTree = "<group>";
-		};
-		FCCE83132DB9117A00710BA1 /* ImageFeedUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ImageFeedUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +78,7 @@
 		FCCE82E72DB9117900710BA1 = {
 			isa = PBXGroup;
 			children = (
-				FCCE82F22DB9117900710BA1 /* ImageFeed */,
-				FCCE83092DB9117A00710BA1 /* ImageFeedTests */,
-				FCCE83132DB9117A00710BA1 /* ImageFeedUITests */,
+				FC9DCA492DD20C250045FF41 /* ImageFeed */,
 				FCCE82F12DB9117900710BA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,7 +109,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FCCE82F22DB9117900710BA1 /* ImageFeed */,
+				FC9DCA492DD20C250045FF41 /* ImageFeed */,
 			);
 			name = ImageFeed;
 			packageProductDependencies = (
@@ -143,9 +131,6 @@
 			dependencies = (
 				FCCE83082DB9117A00710BA1 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				FCCE83092DB9117A00710BA1 /* ImageFeedTests */,
-			);
 			name = ImageFeedTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				FCCE83122DB9117A00710BA1 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				FCCE83132DB9117A00710BA1 /* ImageFeedUITests */,
 			);
 			name = ImageFeedUITests;
 			packageProductDependencies = (
@@ -295,6 +277,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -324,6 +307,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
