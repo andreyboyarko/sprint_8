@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  ImageFeed
-//
-//  Created by Andrei  Boyarko on 23/04/2025.
-//
-
 import UIKit
 
 @main
@@ -33,4 +26,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
