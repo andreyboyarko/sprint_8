@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="An0-0W-zNd">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nwl-3j-HZr">
+>>>>>>> origin/main
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -95,6 +98,7 @@
             </objects>
             <point key="canvasLocation" x="-440" y="-1035"/>
         </scene>
+<<<<<<< HEAD
         <!--Navigation Controller-->
         <scene sceneID="GXz-5S-vC3">
             <objects>
@@ -217,6 +221,12 @@
         <scene sceneID="xPW-ZH-XOf">
             <objects>
                 <tabBarController storyboardIdentifier="TabBarViewController" id="Nwl-3j-HZr" sceneMemberID="viewController">
+=======
+        <!--Tab Bar Controller-->
+        <scene sceneID="xPW-ZH-XOf">
+            <objects>
+                <tabBarController id="Nwl-3j-HZr" sceneMemberID="viewController">
+>>>>>>> origin/main
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="q2K-eR-IyY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -323,6 +333,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rh8-tB-Mvu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="466" y="-1035"/>
+<<<<<<< HEAD
         </scene>
         <!--Unsplash-->
         <scene sceneID="ym1-ZO-dy7">
@@ -352,11 +363,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="30O-Mh-7MP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2691" y="-1268"/>
+=======
+>>>>>>> origin/main
         </scene>
     </scenes>
     <resources>
         <image name="0" width="1600" height="1059"/>
         <image name="Active" width="44" height="44"/>
+<<<<<<< HEAD
         <image name="auth_screen_logo" width="60" height="60"/>
         <image name="back_button_white" width="24" height="24"/>
         <image name="share" width="50" height="50"/>
@@ -366,11 +380,14 @@
         <namedColor name="FFFFFF">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+=======
+        <image name="back_button_white" width="24" height="24"/>
+        <image name="share" width="50" height="50"/>
+        <image name="tab_editorial_active" width="75" height="49"/>
+        <image name="tab_profile_active" width="30" height="30"/>
+>>>>>>> origin/main
         <namedColor name="YP Black">
             <color red="0.10196078431372549" green="0.10588235294117647" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
