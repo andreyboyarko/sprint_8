@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="An0-0W-zNd">
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nwl-3j-HZr">
->>>>>>> origin/main
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -98,7 +95,6 @@
             </objects>
             <point key="canvasLocation" x="-440" y="-1035"/>
         </scene>
-<<<<<<< HEAD
         <!--Navigation Controller-->
         <scene sceneID="GXz-5S-vC3">
             <objects>
@@ -130,16 +126,21 @@
                                     <constraint firstAttribute="height" constant="60" id="ktj-b4-CVQ"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKN-oC-ahM">
-                                <rect key="frame" x="16" y="714" width="361" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKN-oC-ahM">
+                                <rect key="frame" x="16" y="681" width="361" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="NKM-jS-evZ"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Войти">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Войти">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" title="Войти" titleAlignment="center">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" name="FFFFFF"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
                                     <color key="baseForegroundColor" name="YP Black"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
@@ -160,7 +161,7 @@
                             <constraint firstItem="oFG-Or-wCm" firstAttribute="centerX" secondItem="Jty-Hx-Fbj" secondAttribute="centerX" id="XWW-xo-fJy"/>
                             <constraint firstItem="8ej-l9-9jd" firstAttribute="trailing" secondItem="iKN-oC-ahM" secondAttribute="trailing" constant="16" id="bEJ-43-mrq"/>
                             <constraint firstItem="oFG-Or-wCm" firstAttribute="centerY" secondItem="Jty-Hx-Fbj" secondAttribute="centerY" id="hTG-UU-7mp"/>
-                            <constraint firstItem="8ej-l9-9jd" firstAttribute="bottom" secondItem="iKN-oC-ahM" secondAttribute="bottom" constant="90" id="sDf-Xf-5gv"/>
+                            <constraint firstAttribute="bottom" secondItem="iKN-oC-ahM" secondAttribute="bottom" constant="124" id="sDf-Xf-5gv"/>
                             <constraint firstItem="iKN-oC-ahM" firstAttribute="leading" secondItem="8ej-l9-9jd" secondAttribute="leading" constant="16" id="tSC-X6-2Tg"/>
                         </constraints>
                     </view>
@@ -171,7 +172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p0u-Yx-QxV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-627" y="-1828"/>
+            <point key="canvasLocation" x="-628.24427480916029" y="-1828.1690140845071"/>
         </scene>
         <!--Web View View Controller-->
         <scene sceneID="1zH-db-6XG">
@@ -221,12 +222,6 @@
         <scene sceneID="xPW-ZH-XOf">
             <objects>
                 <tabBarController storyboardIdentifier="TabBarViewController" id="Nwl-3j-HZr" sceneMemberID="viewController">
-=======
-        <!--Tab Bar Controller-->
-        <scene sceneID="xPW-ZH-XOf">
-            <objects>
-                <tabBarController id="Nwl-3j-HZr" sceneMemberID="viewController">
->>>>>>> origin/main
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="q2K-eR-IyY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -333,7 +328,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rh8-tB-Mvu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="466" y="-1035"/>
-<<<<<<< HEAD
         </scene>
         <!--Unsplash-->
         <scene sceneID="ym1-ZO-dy7">
@@ -363,31 +357,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="30O-Mh-7MP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2691" y="-1268"/>
-=======
->>>>>>> origin/main
         </scene>
     </scenes>
     <resources>
         <image name="0" width="1600" height="1059"/>
         <image name="Active" width="44" height="44"/>
-<<<<<<< HEAD
         <image name="auth_screen_logo" width="60" height="60"/>
         <image name="back_button_white" width="24" height="24"/>
         <image name="share" width="50" height="50"/>
         <image name="splash_screen_logo" width="73" height="76"/>
         <image name="tab_editorial_active" width="75" height="49"/>
         <image name="tab_profile_active" width="30" height="30"/>
-        <namedColor name="FFFFFF">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-=======
-        <image name="back_button_white" width="24" height="24"/>
-        <image name="share" width="50" height="50"/>
-        <image name="tab_editorial_active" width="75" height="49"/>
-        <image name="tab_profile_active" width="30" height="30"/>
->>>>>>> origin/main
         <namedColor name="YP Black">
             <color red="0.10196078431372549" green="0.10588235294117647" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
